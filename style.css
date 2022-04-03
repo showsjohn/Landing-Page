@@ -1,0 +1,247 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+    color: black;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: "Special Elite";
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* NAVBAR STYLES*/
+.navbar {
+    background-color: #000000;
+    
+}
+.navbar nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2em 32px;
+}
+.navbar nav h2 {
+    font-size: 24px;
+    color: #f87f15;
+    font-weight: 600;
+}
+.navbar nav ul {
+    display: flex;
+
+}
+.navbar nav ul li {
+    padding: 0 1em;
+    
+}
+.navbar nav ul li a {
+    color: #f87f15;
+    font-size: 18px;
+}
+
+
+/* SHOWCASE STYLES*/
+
+.showcase {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #000000;
+    padding: 0px 32px;
+    
+    
+}
+.showcase .left-showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em 1em;
+} 
+
+.showcase .right-showcase  {
+    background: url(./slashlive.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    width: 600px;
+    height: 600px;
+}
+
+.showcase .left-showcase h1 {
+    font-size: 48px;
+    line-height: 1.2em;
+    font-weight: 800;
+    color: #f87f15;
+}
+
+.showcase-content p {
+    color: #f87f15;
+    padding: 2em 0;
+    line-height: 1.2em;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+.showcase-content button {
+    padding: 0.5em 1em;
+    width: 8em;
+    border: 1px solid #f87f15;
+    background: none;
+    border-radius: 0.5em;
+    color: #f87f15;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+
+.showcase .right-showcase img {
+    max-width: 600px;
+    border-radius: 1em;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content h2 {
+    text-align: center;
+    margin: 2em;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937; 
+}
+.main-content .card-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.main-content .card-container .card {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-sizing: content-box;
+    text-align: center;
+    max-width: 350px;
+    margin: 0 1em;
+}
+
+.main-content .card-container .card p {
+    font-size: 1.5em;
+    padding: 0.5em 0;
+    line-height: 1.3em;
+    color: #1f2937;
+    font-weight: 500;
+}
+
+.card img {
+    width: 100%;
+    min-width: 200px;
+    height: auto;
+    border-radius: 1em;
+}
+
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10em;
+}
+
+.call-to-action .main-content-quote {
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.2em;
+    font-size: 3em;
+    max-width: 50%;
+    padding: 3em;
+    border-radius: 0.3em;
+    background-color: #f87f15;
+}
+
+.call-to-action .main-content-quote figcaption{
+    font-size: 0.75em;
+    text-align: right;
+    font-weight: 500;
+}
+
+.banner {
+    font-size: 1.5em;
+    background-color: #f87f15;
+    border-radius: 0.5em;
+    padding: 2em 2em;
+    margin-top: 5em;
+    display: flex;
+}
+
+.banner h3 {
+    font-size: 1.5em;
+}
+
+.banner p {
+    padding: 0.2em 0;
+    padding-right: 2em;
+}
+
+.banner button {
+    background: none;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 0 2em;
+    font-size: 1em;
+}
+
+footer {
+    background-color: #000000;
+}
+
+footer p {
+    color:#f87f15;
+    padding: 2em 0;
+    text-align: center;
+    font-size: 1.5em
+}
