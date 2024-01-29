@@ -5,4 +5,4 @@ This project demonstrates my understanding of HTML and CSS basics, including the
 
 You can view the project here:
 
-https://sleepnaught88.github.io/Landing-Page/
+https://showsjohn.github.io/Landing-Page/
